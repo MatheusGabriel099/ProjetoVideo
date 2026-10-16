@@ -16,5 +16,10 @@ namespace ProjetoVideo
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = @"Video/14482814_3240_2160_24fps.MP4";
+        }
     }
 }
